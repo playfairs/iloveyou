@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  min-height: 100vh;
+  overflow: hidden;
+  background: radial-gradient(120% 90% at 50% 42%, #1a1022 0%, #07060c 52%, #020204 100%);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#heartCanvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  vertical-align: middle;
+}
